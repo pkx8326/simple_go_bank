@@ -24,7 +24,7 @@ After finishing the deposit procedure, the program asks if the user still have a
 After depositing some amount, a balance file is created and the program will now read the updated balance information from that file. The file information will be overwritten to update everytime the user deposit or withdraw an amount. The deposit and withdraw menu will not take any number less than or equal to 0. For the deposit menu, the user will be notify if there's an attempt to withdraw any amount bigger than the curreent balance and will be brought back to the main menu after confirming another transaction with 4 transaction menu options.
 
 #### Code structure
-The Go code is divided into two main parts being the main program code in the main.py file and the code for different transansaction options in the functions.py file. This code structure is designed to demonstrate Go's modularity and the use of functions.
+The Go code is divided into two main parts being the main program code in the main.go file and the code for different transansaction options in the optn.go file. This code structure is designed to demonstrate Go's modularity and the use of functions.
 
 
 ### Program flow
