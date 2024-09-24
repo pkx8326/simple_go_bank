@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"example.com/gobank/optn"
+	"https://github.com/pkx8326/simple_go_bank/optn"
 )
 
 func main() {
